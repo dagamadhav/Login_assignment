@@ -1,0 +1,90 @@
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #101113;
+  padding: 20px;
+  border-bottom: 1px solid #333;
+}
+
+.navbar-logo {
+  height: 40px; 
+}
+
+.google-login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1; 
+  padding: 20px;
+}
+
+.google-login-card {
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.google-login-card h2 {
+  margin-bottom: 50px;
+  font-weight: normal;
+
+}
+
+.google-login-button {
+  margin-top: 50px;
+  width: fit-content; 
+}
+
+.account-button {
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.account-button:hover {
+  background-color: #357ab7;
+}
+
+.google-login-card p {
+  margin: 0;
+}
+
+.google-login-card a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+.google-login-card a:hover {
+  text-decoration: underline;
+}
+
+/* Footer styling */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #101113;
+  border-top: 1px solid #333;
+  color: #777;
+}
